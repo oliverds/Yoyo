@@ -1,19 +1,42 @@
-# Opinionated Laravel Template
+# Yoyo
 
-This is a template I use when starting a new Laravel project..
+Un template minimal para crear sitios del tipo Linktree basado en Laravel.
 
-## Installation
-
-You can create a new project via composer:
-
-```bash
-composer create-project oliverds/enhance-laravel-template
+```
+resources
+├── views
+│   ├── components .......... componentes blade personalizados
+│   │   └── *.blade.php
+│   ├── discovery
+│   │   └── index.blade.php . homepage
+│   ├── layouts
+│   │   └── app.blade.php ... layout principal
 ```
 
-## Toolset
+## Inicio rápido
 
-The created application is configured with the following tools:
+- Clona este repo:
 
-- [Pest](https://pestphp.com)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Laravel-route-discovery](https://spatie.be/docs/laravel-route-discovery)
+    ```bash
+    git clone git@github.com:oliverds/Yoyo.git
+    ```
+
+- `cd` en el repo, haz un `composer install` y un `npm install`
+
+    ```bash
+    cd Yoyo
+    composer install
+    npm install
+    ```
+
+- Arranca el servidor de desarrollo
+
+    ```bash
+    npm run dev
+    ```
+ - Abra una pestaña del navegador
+ - Comienza a editar tu sitio Linktree
+
+## Despliegue a producción
+
+TODO
