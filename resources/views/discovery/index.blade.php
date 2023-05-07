@@ -9,8 +9,7 @@
                     Chris Linx
                 </h1>
                 <h2 class="text-center max-w-sm">
-                    Experienced UX designer based in the US known for creating intuitive and
-                    engaging user experiences.
+                    Experimentado diseñador UX ubicado en México. Conocido por crear experiencias de usuario atractivas e intuitivas.
                 </h2>
                 <div class="flex justify-center gap-4">
                     <a class="border border-neutral-300 rounded py-3 px-6 bg-neutral-100 text-sm font-semibold text-neutral-900" href="#">
@@ -28,7 +27,7 @@
                         <x-slot:title>Canvas Supply</x-slot>
                         <x-slot:description>Framer Resources</x-slot>
                         <x-slot:image src="https://framerusercontent.com/images/hDQUaWouoxyIThqey4W06r9HIM.webp" alt=""></x-slot>
-                        <x-slot:link href="#">View</x-slot>
+                        <x-slot:link href="#">Ver</x-slot>
                     </x-link-item>
                 </x-card>
 
@@ -37,7 +36,7 @@
                         <x-slot:title>DashFolio</x-slot>
                         <x-slot:description>The original dashboard-styled Framer Template.</x-slot>
                         <x-slot:image src="https://framerusercontent.com/images/vftCZbEK2ive6knUUTRekPAGwj8.webp" alt=""></x-slot>
-                        <x-slot:link href="#">Buy</x-slot>
+                        <x-slot:link href="#">Comprar</x-slot>
                     </x-link-item>
                 </x-card>
 
@@ -46,14 +45,14 @@
                         <x-slot:title>Godlike</x-slot>
                         <x-slot:description>Build Websites at Godlike Speed.</x-slot>
                         <x-slot:image src="https://framerusercontent.com/images/fxcaCZXYS9IfOcU9diSBiIGo84.webp" alt=""></x-slot>
-                        <x-slot:link href="#">View</x-slot>
+                        <x-slot:link href="#">Ver</x-slot>
                     </x-link-item>
                 </x-card>
 
                 <x-card>
                     <x-slot name="header">
                         <x-card-header>
-                            <x-slot:title>Latest Video</x-slot>
+                            <x-slot:title>Último video</x-slot>
 
                             <x-slot:link href="#">
                                 Youtube <x-icon-right-arrow class="w-4 h-4 ml-1" />
@@ -69,10 +68,10 @@
                 <x-card>
                     <x-slot name="header">
                         <x-card-header>
-                            <x-slot:title>Gallery</x-slot>
+                            <x-slot:title>Galería</x-slot>
 
                             <x-slot:link href="/web">
-                                View more <x-icon-right-arrow class="w-4 h-4 ml-1" />
+                                Ver más <x-icon-right-arrow class="w-4 h-4 ml-1" />
                             </x-slot>
                         </x-card-header>
                     </x-slot>
@@ -99,10 +98,10 @@
                 <x-card>
                     <x-slot name="header">
                         <x-card-header>
-                            <x-slot:title>New Podcast Episode</x-slot>
+                            <x-slot:title>Nuevo episodio del podcast</x-slot>
 
                             <x-slot:link href="#">
-                                All <x-icon-right-arrow class="w-4 h-4 ml-1" />
+                                Ver todo <x-icon-right-arrow class="w-4 h-4 ml-1" />
                             </x-slot>
                         </x-card-header>
                     </x-slot>
@@ -152,9 +151,9 @@
 
                 <x-card>
                     <div class="flex w-full gap-1">
-                        <input class="rounded-md border-neutral-300 flex-1 text-sm h-12" type="text" name="email" placeholder="Subscribe to the newsletter">
+                        <input class="rounded-md border-neutral-300 flex-1 text-sm h-12" type="text" name="email" placeholder="Suscríbete al newsletter">
                         <button class="text-sm font-semibold text-neutral-900 bg-white border border-neutral-300 rounded-md px-4 h-12">
-                            Subscribe now
+                            Suscribirse ahora
                         </button>
                     </div>
                 </x-card>
@@ -162,15 +161,15 @@
 
             <div class="flex gap-4 text-sm">
                 <div class="flex gap-1">
-                    <span>Proundly built in</span>
-                    <a href="#" class="text-neutral-500 hover:text-neutral-900">Framer</a>
+                    <span>Construido en</span>
+                    <a href="#" class="text-neutral-500 hover:text-neutral-900">Laravel</a>
                 </div>
                 <div class="flex gap-1">
-                    <span>Made by</span>
-                    <a href="#" class="text-neutral-500 hover:text-neutral-900">Cedric</a>
+                    <span>Hecho por</span>
+                    <a href="https://twitter.com/oliverservin_" class="text-neutral-500 hover:text-neutral-900">Oliver Servín</a>
                 </div>
                 <div class="flex gap-1">
-                    <span class="text-neutral-500">©2023 Linxs Template</span>
+                    <span class="text-neutral-500">©{{ date('Y') }} Yoyo Template</span>
                 </div>
             </div>
         </div>
