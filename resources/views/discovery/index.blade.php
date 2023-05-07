@@ -13,113 +13,70 @@
                     engaging user experiences.
                 </h2>
                 <div class="flex justify-center gap-4">
-                    <a href="#" class="border border-neutral-300 rounded py-3 px-6 bg-neutral-100 text-sm font-semibold text-neutral-900">
+                    <a class="border border-neutral-300 rounded py-3 px-6 bg-neutral-100 text-sm font-semibold text-neutral-900" href="#">
                         Website
                     </a>
-                    <a href="#" class="border border-neutral-300 rounded py-3 px-6 text-sm font-semibold text-neutral-900">
+                    <a class="border border-neutral-300 rounded py-3 px-6 text-sm font-semibold text-neutral-900" href="#">
                         Email
                     </a>
                 </div>
             </header>
 
             <div class="w-full flex flex-col gap-4">
-                <div class="p-4 flex gap-5 items-center border-neutral-300 border rounded-md bg-neutral-100">
-                    <div>
-                        <img class="object-cover h-12 w-12 rounded-md" src="https://framerusercontent.com/images/hDQUaWouoxyIThqey4W06r9HIM.webp" alt="">
-                    </div>
-                    <div class="flex-1">
-                        <h3 class="text-sm font-semibold text-neutral-900">Canvas Supply</h3>
-                        <p class="text-neutral-500 text-sm">Framer Resources</p>
-                    </div>
-                    <div>
-                        <a href="#" class="inline-block border border-neutral-300 py-2.5 px-6 rounded-md text-sm font-semibold text-neutral-900">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-neutral-500 hidden">
-                                <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd" />
-                                <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd" />
-                            </svg>
+                <x-card>
+                    <x-link-item>
+                        <x-slot:title>Canvas Supply</x-slot>
+                        <x-slot:description>Framer Resources</x-slot>
+                        <x-slot:image src="https://framerusercontent.com/images/hDQUaWouoxyIThqey4W06r9HIM.webp" alt=""></x-slot>
+                        <x-slot:link href="#">View</x-slot>
+                    </x-link-item>
+                </x-card>
 
-                            View
-                        </a>
-                    </div>
-                </div>
+                <x-card>
+                    <x-link-item>
+                        <x-slot:title>DashFolio</x-slot>
+                        <x-slot:description>The original dashboard-styled Framer Template.</x-slot>
+                        <x-slot:image src="https://framerusercontent.com/images/vftCZbEK2ive6knUUTRekPAGwj8.webp" alt=""></x-slot>
+                        <x-slot:link href="#">Buy</x-slot>
+                    </x-link-item>
+                </x-card>
 
-                <div class="p-4 flex gap-5 items-center border-neutral-300 border rounded-md bg-neutral-100">
-                    <div>
-                        <img class="object-cover h-12 w-12 rounded-md" src="https://framerusercontent.com/images/vftCZbEK2ive6knUUTRekPAGwj8.webp" alt="">
-                    </div>
-                    <div class="flex-1">
-                        <h3 class="text-sm font-semibold text-neutral-900">DashFolio</h3>
-                        <p class="text-neutral-500 text-sm">The original dashboard-styled Framer Template.</p>
-                    </div>
-                    <div>
-                        <a href="#" class="inline-block border border-neutral-300 py-2.5 px-6 rounded-md text-sm font-semibold text-neutral-900">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-neutral-500 hidden">
-                                <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd" />
-                                <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd" />
-                            </svg>
+                <x-card>
+                    <x-link-item>
+                        <x-slot:title>Godlike</x-slot>
+                        <x-slot:description>Build Websites at Godlike Speed.</x-slot>
+                        <x-slot:image src="https://framerusercontent.com/images/fxcaCZXYS9IfOcU9diSBiIGo84.webp" alt=""></x-slot>
+                        <x-slot:link href="#">View</x-slot>
+                    </x-link-item>
+                </x-card>
 
-                            Buy
-                        </a>
-                    </div>
-                </div>
+                <x-card>
+                    <x-slot name="header">
+                        <x-card-header>
+                            <x-slot:title>Latest Video</x-slot>
 
-                <div class="p-4 flex gap-5 items-center border-neutral-300 border rounded-md bg-neutral-100">
-                    <div>
-                        <img class="object-cover h-12 w-12 rounded-md" src="https://framerusercontent.com/images/fxcaCZXYS9IfOcU9diSBiIGo84.webp" alt="">
-                    </div>
-                    <div class="flex-1">
-                        <h3 class="text-sm font-semibold text-neutral-900">Godlike</h3>
-                        <p class="text-neutral-500 text-sm">Build Websites at Godlike Speed.</p>
-                    </div>
-                    <div>
-                        <a href="#" class="inline-block border border-neutral-300 py-2.5 px-6 rounded-md text-sm font-semibold text-neutral-900">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-neutral-500 hidden">
-                                <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd" />
-                                <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd" />
-                            </svg>
+                            <x-slot:link href="#">
+                                Youtube <x-icon-right-arrow class="w-4 h-4 ml-1" />
+                            </x-slot>
+                        </x-card-header>
+                    </x-slot>
 
-                            View
-                        </a>
-                    </div>
-                </div>
-
-                <div class="p-4 flex flex-col gap-5 border-neutral-300 border rounded-md bg-neutral-100">
-                    <div class="flex gap-5 items-center justify-between">
-                        <div>
-                            <h3 class="text-sm font-semibold text-neutral-900">
-                                Latest Video
-                            </h3>
-                        </div>
-                        <div>
-                            <a href="#" class="inline-flex items-center text-sm text-neutral-500">
-                                Youtube
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 ml-1">
-                                    <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
                     <div class="rounded-md overflow-hidden">
                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Jvl_pFssI5w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                </div>
+                </x-card>
 
-                <div class="p-4 flex flex-col gap-5 border-neutral-300 border rounded-md bg-neutral-100">
-                    <div class="flex gap-5 items-center justify-between">
-                        <div>
-                            <h3 class="text-sm font-semibold text-neutral-900">
-                                Gallery
-                            </h3>
-                        </div>
-                        <div>
-                            <a href="#" class="inline-flex items-center text-sm text-neutral-500">
-                                View more
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 ml-1">
-                                    <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
+                <x-card>
+                    <x-slot name="header">
+                        <x-card-header>
+                            <x-slot:title>Gallery</x-slot>
+
+                            <x-slot:link href="/web">
+                                View more <x-icon-right-arrow class="w-4 h-4 ml-1" />
+                            </x-slot>
+                        </x-card-header>
+                    </x-slot>
+
                     <div x-data="yoink">
                         <section x-ref="shtoilst" class="splide" aria-label="Splide Basic HTML Example">
                             <div class="splide__track">
@@ -137,39 +94,37 @@
                             </div>
                         </section>
                     </div>
-                </div>
+                </x-card>
 
-                <div class="p-4 flex flex-col gap-5 border-neutral-300 border rounded-md bg-neutral-100">
-                    <div class="flex gap-5 items-center justify-between">
-                        <div>
-                            <h3 class="text-sm font-semibold text-neutral-900">
-                                New Podcast Episode
-                            </h3>
-                        </div>
-                        <div>
-                            <a href="#" class="inline-flex items-center text-sm text-neutral-500">
-                                All
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 ml-1">
-                                    <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
+                <x-card>
+                    <x-slot name="header">
+                        <x-card-header>
+                            <x-slot:title>New Podcast Episode</x-slot>
+
+                            <x-slot:link href="#">
+                                All <x-icon-right-arrow class="w-4 h-4 ml-1" />
+                            </x-slot>
+                        </x-card-header>
+                    </x-slot>
+
                     <div>
                         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0mO6oS60RST2sWmN2FKknP?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                     </div>
-                </div>
+                </x-card>
 
                 <div class="flex w-full justify-between gap-4">
                     <div class="w-full flex justify-center border border-neutral-300 bg-neutral-100 p-3 rounded-md">
                         <a class="h-[80px] flex items-center text-neutral-500" href="#">
                             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 575 512">
-                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>                        </a>
+                                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                            </svg>
+                        </a>
                     </div>
                     <div class="w-full flex justify-center border border-neutral-300 bg-neutral-100 p-3 rounded-md">
                         <a class="h-[80px] flex items-center text-neutral-500" href="#">
                             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 575 512">
-                            <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>                            </svg>
+                                <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+                            </svg>
                         </a>
                     </div>
                     <div class="w-full flex justify-center border border-neutral-300 bg-neutral-100 p-3 rounded-md">
@@ -195,20 +150,14 @@
                     </div>
                 </div>
 
-                <div class="p-4 flex gap-5 items-center justify-between border-neutral-300 border rounded-md bg-neutral-100">
+                <x-card>
                     <div class="flex w-full gap-1">
                         <input class="rounded-md border-neutral-300 flex-1 text-sm h-12" type="text" name="email" placeholder="Subscribe to the newsletter">
-                        <button class="text-sm font-semibold text-neutral-900 bg-white border border-neutral-300 rounded-md px-4 h-12">Subscribe now</button>
+                        <button class="text-sm font-semibold text-neutral-900 bg-white border border-neutral-300 rounded-md px-4 h-12">
+                            Subscribe now
+                        </button>
                     </div>
-                </div>
-
-                <div class="p-4 flex gap-5 items-center justify-between border-neutral-300 border rounded-md bg-neutral-100">
-                    <div>
-                        <h3 class="text-sm font-semibold text-neutral-900">
-                            Stack
-                        </h3>
-                    </div>
-                </div>
+                </x-card>
             </div>
 
             <div class="flex gap-4 text-sm">
