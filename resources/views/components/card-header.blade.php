@@ -10,7 +10,7 @@
         </h3>
     </div>
     <div>
-        <a {{ $link->attributes->merge(['class' => 'inline-flex items-center text-sm text-neutral-500']) }}>
+        <a {{ $link->attributes->merge(['class' => 'inline-flex items-center text-sm text-neutral-500 hover:text-neutral-600']) }}>
             {{ $link }}
         </a>
     </div>
