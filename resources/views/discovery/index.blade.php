@@ -24,27 +24,27 @@
             <div class="w-full flex flex-col gap-4">
                 <x-card>
                     <x-link-item>
-                        <x-slot:title>Canvas Supply</x-slot>
-                        <x-slot:description>Framer Resources</x-slot>
-                        <x-slot:image src="https://framerusercontent.com/images/hDQUaWouoxyIThqey4W06r9HIM.webp" alt=""></x-slot>
-                        <x-slot:link href="#">Ver</x-slot>
-                    </x-link-item>
-                </x-card>
-
-                <x-card>
-                    <x-link-item>
-                        <x-slot:title>DashFolio</x-slot>
-                        <x-slot:description>The original dashboard-styled Framer Template.</x-slot>
-                        <x-slot:image src="https://framerusercontent.com/images/vftCZbEK2ive6knUUTRekPAGwj8.webp" alt=""></x-slot>
+                        <x-slot:title>iOS Icons</x-slot>
+                        <x-slot:description>Un precioso conjunto de iconos exclusivos para iOS.</x-slot>
+                        <x-slot:image src="/images/ios-icons.webp" alt=""></x-slot>
                         <x-slot:link href="#">Comprar</x-slot>
                     </x-link-item>
                 </x-card>
 
                 <x-card>
                     <x-link-item>
-                        <x-slot:title>Godlike</x-slot>
-                        <x-slot:description>Build Websites at Godlike Speed.</x-slot>
-                        <x-slot:image src="https://framerusercontent.com/images/fxcaCZXYS9IfOcU9diSBiIGo84.webp" alt=""></x-slot>
+                        <x-slot:title>macOS Icons</x-slot>
+                        <x-slot:description>Un conjunto de 48 iconos personalizados para macOS.</x-slot>
+                        <x-slot:image src="/images/mac-icons.webp" alt=""></x-slot>
+                        <x-slot:link href="#">Comprar</x-slot>
+                    </x-link-item>
+                </x-card>
+
+                <x-card>
+                    <x-link-item>
+                        <x-slot:title>Lightroom Presets</x-slot>
+                        <x-slot:description>8 presets para Lightroom que mejorarán tus fotografías.</x-slot>
+                        <x-slot:image src="/images/lightroom-presets.webp" alt=""></x-slot>
                         <x-slot:link href="#">Ver</x-slot>
                     </x-link-item>
                 </x-card>
